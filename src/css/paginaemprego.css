@@ -1,0 +1,100 @@
+body {
+background-color: black;
+
+
+}
+
+.container {
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+
+  .container h1 {
+    font-size: small;
+  }
+
+  .container h2 {
+    margin: 90px;
+    width: auto;
+    font-size: medium;
+    text-align: center; 
+    font-family: 'Arial', sans-serif;
+    
+  }
+
+  .destaque h1{
+    text-align: left;
+    color: rgb(246, 16, 16);
+    font-family:Andale Mono, monospace;
+  }
+
+
+
+.header {
+  background-color: #ffffff; /* Cor de fundo do cabeçalho */
+  box-shadow: 0px 2px 5px rgba(255, 5, 5, 0.1); /* Sombra suave */
+  padding: 15px 0; /* Espaçamento interno superior e inferior */
+}
+
+
+h1{
+  text-align: right;
+}
+
+
+.logo {
+    color: black;
+  margin: 0;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav {
+  display: flex;
+}
+
+.nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.nav li {
+  margin-right: 20px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #333; /* Cor do texto do menu */
+  font-weight: bold;
+  font-size: 16px;
+  transition: color 0.3s;
+}
+
+.nav a:hover {
+  color: #ff0000; /* Cor do texto do menu ao passar o mouse */
+}
+
+.container-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: grid;
+  height: 9vh; /* Define a altura total da tela */
+  margin: 0; /
+}
+
+.button {
+
+  background-color: rgb(255, 0, 0); /* Cor de fundo amarela */
+  color: white; /* Cor do texto branco */
+  border: none;
+  cursor: pointer;
+  padding: 15px 30px;
+  border-radius: 30px;
+  transition: background-color 0.3s, box-shadow 0.3s; /* Adiciona transições para efeitos suaves */
+}
